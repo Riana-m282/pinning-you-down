@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pinning You Down</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Mapbox CSS -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <!-- Our own stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>📍 Pinning You Down</h1>
+    
+    <div id="popup" class="popup">
+  <button class="close-btn" onclick="document.getElementById('popup').style.display='none'">×</button>
+  <div class="popup-content">
+          <p>
+         Hi Lath! Happy one year! 
+</p> 
+        A place is only as special as the person you share it with.
+        </p>
+Some of the most beautiful places I’ve seen are tied to you. Or maybe they are the most beautiful because they are tied to you.
+</p>
+      Some of them are breathtaking: mountain views, open roads, dense forests. Others are completely ordinary: a swing, a field, a breakfast table. 
+    But they have one thing in common- you were there. Or I was thinking of you. 
+    Or something kutti reminded me of you.
+    </p>  
+    I made this map for two reasons:
+  </p>
+ 1)  Because you, my darling girl, are a lover of maps.
+</p>
+2)  Because this world will take us many places.
+ Some far apart, some side by side. But no matter where we go, 
+I know you’ll always show up: in a champu tree, a full laugh, a playfull pupper or an amber glassed bottle of olive oil.
+
+</p>
+How lucky am I, that even the most mundane places become memorable, solely because they remind me of you.
+You are, truly, my favourite part of everywhere.
+</p>
+You mean the world to me, my lath. 
+You are and always will be my bestest friend, my most desired company, and my favourite place to be.
+        </p>
+       - Riana 
+
+  </div>
+</div>
+
+
+    <div id="map"></div>
+
+    <!-- Our JavaScript -->
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
